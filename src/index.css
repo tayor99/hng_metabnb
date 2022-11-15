@@ -5,6 +5,8 @@
 :root {
   --clr-primary: linear-gradient(90deg, #a02279 11.45%, #a02279 11.45%);
   --clr-white: #ffffff;
+  --clr-black-2: #434343;
+  --font-primary: "Red Rose", cursive;
 }
 body {
   margin: 0;
