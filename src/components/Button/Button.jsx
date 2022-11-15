@@ -1,3 +1,3 @@
-import { Button } from "./Button.style";
+import { Button, InputButtons } from "./Button.style";
 
-export default Button;
+export { Button, InputButtons };

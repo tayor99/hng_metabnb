@@ -1,7 +1,7 @@
 import { Header } from "./Navbar.style";
 import Logo from "../../Assets/Logo.png";
 import { links } from "../../utils";
-import Button from "../Button/Button";
+import { Button } from "../Button/Button";
 
 const Navbar = () => {
   return (

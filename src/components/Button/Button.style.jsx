@@ -17,3 +17,8 @@ export const Button = styled.button`
   color: var(--clr-white);
   cursor: pointer;
 `;
+export const InputButtons = styled(Button)`
+  border-radius: 0px 8px 8px 0px;
+  width: 100%;
+  height: 54px;
+`;

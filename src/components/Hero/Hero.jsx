@@ -1,4 +1,4 @@
-import Button from "../Button/Button";
+import { InputButtons } from "../Button/Button";
 import { Wrapper } from "./Hero.style";
 import Img1 from "../../Assets/image1.png";
 import Img2 from "../../Assets/image2.png";
@@ -22,7 +22,9 @@ const Hero = () => {
           <form className="hero__form">
             <div className="form__input">
               <input type="text" placeholder="Search for location" />
-              <Button>Search</Button>
+              <div className="btn">
+                <InputButtons>Search</InputButtons>
+              </div>
             </div>
           </form>
         </div>

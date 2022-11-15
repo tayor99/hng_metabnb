@@ -3,9 +3,11 @@
   margin: 0;
 }
 :root {
-  --clr-primary: linear-gradient(90deg, #a02279 11.45%, #a02279 11.45%);
+  --clr-primary: #a02279;
   --clr-white: #ffffff;
   --clr-black-2: #434343;
+  --clr-black-3: #a3a3a3;
+  --clr-grey: #b8b8b8;
   --font-primary: "Red Rose", cursive;
 }
 body {
