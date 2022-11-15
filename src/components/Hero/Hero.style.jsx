@@ -4,7 +4,7 @@ export const Wrapper = styled.div`
   width: 100%;
   margin-top: 60px;
   .hero__container {
-    width: 87.5%;
+    width: 84%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;

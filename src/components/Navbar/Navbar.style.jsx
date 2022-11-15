@@ -8,7 +8,7 @@ export const Header = styled.header`
     justify-content: space-between;
     align-items: center;
     height: 100%;
-    width: 87.5%;
+    width: 84%;
     margin: 0 auto;
   }
   .img__container {
