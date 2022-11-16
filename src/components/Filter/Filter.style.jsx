@@ -7,10 +7,12 @@ export const Wrapper = styled.div`
     margin: 40px auto;
     ul {
       display: flex;
-      justify-content: space-between;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
       align-items: center;
       li {
         list-style: none;
+        margin: 10px 5px;
         font-family: var(--font-primary);
         font-weight: 400;
         font-size: 1.25rem;

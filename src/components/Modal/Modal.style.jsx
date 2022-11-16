@@ -91,4 +91,14 @@ export const Wrapper = styled.div`
       }
     }
   }
+  @media (max-width: 850px) {
+    .modal__content {
+      width: 70%;
+    }
+  }
+  @media (max-width: 550px) {
+    .modal__content {
+      width: 90%;
+    }
+  }
 `;

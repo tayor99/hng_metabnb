@@ -8,7 +8,7 @@ const Places = () => {
     <Wrapper>
       <div className="places__container">
         {houses.map((house) => {
-          return <Housing key={house.id} house={house.name} />;
+          return <Housing key={house.id} house={house} />;
         })}
       </div>
     </Wrapper>

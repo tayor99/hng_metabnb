@@ -58,7 +58,18 @@ export const Wrapper = styled.footer`
     .footer__container {
       display: flex;
       flex-direction: column;
-      /* justify-content: space-between; */
+      width: 95%;
+    }
+    .company {
+      width: 100%;
+    }
+    .footer__links {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      h1 {
+        margin: 15px 0;
+      }
     }
   }
 `;
