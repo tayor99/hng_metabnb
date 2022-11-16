@@ -5,9 +5,12 @@
 :root {
   --clr-primary: #a02279;
   --clr-white: #ffffff;
+  --clr-white-2: #f7f7f7;
+  --clr-white-3: #f1f3f9;
   --clr-black: #000000;
   --clr-black-2: #434343;
   --clr-black-3: #a3a3a3;
+  --clr-black-4: #1d1d1e;
   --clr-grey: #b8b8b8;
   --font-primary: "Red Rose", cursive;
 }
