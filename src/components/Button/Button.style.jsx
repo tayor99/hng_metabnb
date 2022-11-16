@@ -1,8 +1,10 @@
 import styled from "styled-components";
 
 export const Button = styled.button`
-  color: var(--clr-white);
-  background: var(--clr-primary);
+  background-color: ${(props) =>
+    props.variant === "outline" ? `var(--clr-white)` : ` var(--clr-primary)`};
+  color: ${(props) =>
+    props.variant === "outline" ? ` var(--clr-primary)` : `var(--clr-white)`};
   outline: none;
   border: none;
   display: flex;
@@ -14,7 +16,6 @@ export const Button = styled.button`
   font-family: var(--font-primary);
   font-weight: 400;
   font-size: 1rem;
-  color: var(--clr-white);
   cursor: pointer;
 `;
 export const InputButtons = styled(Button)`

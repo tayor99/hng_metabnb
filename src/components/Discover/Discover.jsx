@@ -15,7 +15,7 @@ const Discover = () => {
             access to loads of our exclusive services.
           </p>
           <div className="btn">
-            <Button>Learn more</Button>
+            <Button variant="outline">Learn more</Button>
           </div>
         </div>
         <div className="discover__image">

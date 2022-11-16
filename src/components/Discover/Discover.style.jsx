@@ -2,9 +2,9 @@ import styled from "styled-components";
 
 export const Wrapper = styled.div`
   width: 100%;
-  height: 580px;
-  padding-top: 170px;
-  /* margin-top: 100px; */
+  height: 550px;
+  padding-top: 100px;
+  padding-bottom: 100px;
   background-color: var(--clr-primary);
   .discover__container {
     display: flex;
@@ -16,6 +16,7 @@ export const Wrapper = styled.div`
   }
   .discover__article {
     width: 35%;
+    margin-top: 60px;
     h1 {
       font-family: var(--font-primary);
       font-weight: 700;
@@ -30,27 +31,32 @@ export const Wrapper = styled.div`
       line-height: 1.6;
       color: var(--clr-white);
     }
+    .btn {
+      margin-top: 50px;
+    }
   }
   .discover__image {
     position: relative;
-    /* width: 65%; */
     display: flex;
-    flex-direction: column;
+  }
+  .img__container {
+    width: 100%;
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
   }
 
-  .image1 {
-    position: absolute;
-    top: -212px;
-    right: 75px;
-  }
   .image2 {
     position: absolute;
-    top: -49px;
-    right: 300px;
+    top: 156px;
+    right: 228px;
   }
   .image3 {
     position: absolute;
-    top: 51px;
-    right: 47px;
+    top: 265px;
+    right: -36px;
+    z-index: 1;
   }
 `;
