@@ -1,6 +1,7 @@
 import { Header } from "./Navbar.style";
 import Logo from "../../Assets/Logo.png";
 import { links } from "../../utils";
+import { Link } from "react-router-dom";
 import { Button } from "../Button/Button";
 
 const Navbar = () => {
@@ -16,7 +17,9 @@ const Navbar = () => {
           <ul>
             {links.map((link) => (
               <li key={link.id}>
-                <span>{link.name}</span>
+                <Link to={link.path} className="link">
+                  {link.name}
+                </Link>
               </li>
             ))}
           </ul>

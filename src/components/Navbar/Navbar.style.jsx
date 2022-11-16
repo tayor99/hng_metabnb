@@ -26,12 +26,13 @@ export const Header = styled.header`
       li {
         margin-right: 48px;
         list-style: none;
-        span {
+        .link {
           font-family: var(--font-primary);
           font-weight: 400;
           font-size: 1.25rem;
           color: var(--clr-black-2);
           cursor: pointer;
+          text-decoration: none;
         }
       }
     }

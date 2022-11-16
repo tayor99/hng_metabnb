@@ -16,10 +16,10 @@ import house15 from "./Assets/house15.png";
 import house16 from "./Assets/house16.png";
 
 export const links = [
-  { id: 0, name: "Home" },
-  { id: 1, name: "Place to stay" },
-  { id: 2, name: "NFTs" },
-  { id: 3, name: "Community" },
+  { id: 0, name: "Home", path: "/" },
+  { id: 1, name: "Place to stay", path: "/place-to-stay" },
+  { id: 2, name: "NFTs", path: "/" },
+  { id: 3, name: "Community", path: "/" },
 ];
 
 export const houses = [
