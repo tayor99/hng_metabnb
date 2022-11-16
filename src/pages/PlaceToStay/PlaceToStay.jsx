@@ -1,5 +1,11 @@
+import Filter from "../../components/Filter/Filter";
+
 const PlaceToStay = () => {
-  return <div>PlaceToStay</div>;
+  return (
+    <>
+      <Filter />
+    </>
+  );
 };
 
 export default PlaceToStay;
