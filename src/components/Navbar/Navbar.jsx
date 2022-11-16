@@ -3,8 +3,12 @@ import Logo from "../../Assets/Logo.png";
 import { links } from "../../utils";
 import { Link } from "react-router-dom";
 import { Button } from "../Button/Button";
+import { FaBars } from "react-icons/fa";
 
-const Navbar = () => {
+const Navbar = ({ setShowModal, setIsSidebarOpen }) => {
+  const openSideBar = () => {
+    setIsSidebarOpen(true);
+  };
   return (
     <Header>
       <div className="navbar__container">
@@ -13,6 +17,9 @@ const Navbar = () => {
             <img src={Logo} alt="matabnb" />
           </div>
         </div>
+        <button className="nav-toggle" onClick={openSideBar}>
+          <FaBars />
+        </button>
         <div className="navlinks">
           <ul>
             {links.map((link) => (
@@ -25,7 +32,7 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="navbar__buttons">
-          <Button>Connect wallet</Button>
+          <Button onClick={() => setShowModal(true)}>Connect wallet</Button>
         </div>
       </div>
     </Header>

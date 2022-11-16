@@ -11,9 +11,12 @@
   --clr-black-2: #434343;
   --clr-black-3: #a3a3a3;
   --clr-black-4: #1d1d1e;
+  --clr-black-5: #333333;
   --clr-grey: #b8b8b8;
   --clr-grey-1: #b4b4b4;
+
   --font-primary: "Red Rose", cursive;
+  --font-2: "Sora", sans-serif;
 }
 body {
   margin: 0;

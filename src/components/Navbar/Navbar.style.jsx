@@ -19,6 +19,17 @@ export const Header = styled.header`
       height: 100%;
     }
   }
+  .nav-toggle {
+    display: none;
+    border-radius: 20px;
+    background-color: transparent;
+    border: none;
+    color: var(--clr-black);
+    cursor: pointer;
+    > svg {
+      font-size: 2.5rem;
+    }
+  }
   .navlinks {
     ul {
       display: flex;
@@ -35,6 +46,20 @@ export const Header = styled.header`
           text-decoration: none;
         }
       }
+    }
+  }
+  @media (max-width: 882px) {
+    .nav-toggle {
+      display: block;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .navbar__buttons {
+      display: none;
+    }
+    .navlinks {
+      display: none;
     }
   }
 `;

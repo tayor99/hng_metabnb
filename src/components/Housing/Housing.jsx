@@ -1,4 +1,5 @@
 import { Wrapper } from "./Housing.style";
+import { AiFillStar } from "react-icons/ai";
 
 const Housing = ({ house }) => {
   return (
@@ -16,7 +17,11 @@ const Housing = ({ house }) => {
           <p>available for 2weeks stay</p>
         </div>
         <div className="rating">
-          <p>rating</p>
+          <AiFillStar />
+          <AiFillStar />
+          <AiFillStar />
+          <AiFillStar />
+          <AiFillStar />
         </div>
       </div>
     </Wrapper>

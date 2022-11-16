@@ -36,6 +36,11 @@ export const Wrapper = styled.div`
     }
     .rating {
       margin-top: 15px;
+      svg {
+        color: var(--clr-primary);
+        font-size: 0.9rem;
+        margin-right: 6px;
+      }
     }
   }
 `;
