@@ -12,6 +12,7 @@ export const Wrapper = styled.div`
   }
   .hero__content {
     width: 55%;
+    margin-bottom: 25px;
     h1 {
       font-family: var(--font-primary);
       font-weight: 400;
@@ -64,13 +65,40 @@ export const Wrapper = styled.div`
       margin-top: 100px;
     }
     .img__container {
-      width: 234px;
+      width: 97%;
       height: 176px;
       margin: 0px 0px 7px 7px;
       img {
         width: 100%;
         height: 100%;
       }
+    }
+  }
+  @media (max-width: 1024px) {
+    .hero__container {
+      width: 95%;
+    }
+    .hero__content {
+      h1 {
+        line-height: 1.2;
+      }
+      p {
+        margin-top: 30px !important;
+      }
+    }
+  }
+  @media (max-width: 1024px) {
+    .hero__container {
+      display: flex;
+      flex-direction: column;
+      .hero__content {
+        width: 90%;
+      }
+    }
+  }
+  @media (max-width: 600px) {
+    .hero__content {
+      width: 95%;
     }
   }
 `;

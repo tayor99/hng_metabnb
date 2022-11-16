@@ -8,7 +8,7 @@ const FavouriteHouses = () => {
         <h1>Inspiration for your next adventure</h1>
         <div className="favouriteHouses__body">
           {houses.slice(0, 8).map((house) => {
-            return <Housing key={house.id} house={house.name} />;
+            return <Housing key={house.id} house={house} />;
           })}
         </div>
       </div>

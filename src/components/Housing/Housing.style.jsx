@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const Wrapper = styled.div`
   margin-bottom: 24px;
+
   border: 1px solid #d7d7d7;
   border-radius: 15px;
   cursor: pointer;
@@ -42,5 +43,11 @@ export const Wrapper = styled.div`
         margin-right: 6px;
       }
     }
+  }
+  @media (max-width: 950px) {
+    margin-right: 24px;
+  }
+  @media (max-width: 600px) {
+    margin-right: 0px !important;
   }
 `;

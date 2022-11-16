@@ -20,4 +20,14 @@ export const Wrapper = styled.div`
     flex-wrap: wrap;
     margin: 28px 0;
   }
+  @media (max-width: 950px) {
+    .favouriteHouses__body {
+      justify-content: center;
+    }
+  }
+  @media (max-width: 770px) {
+    .favouriteHouses__container {
+      width: 90%;
+    }
+  }
 `;

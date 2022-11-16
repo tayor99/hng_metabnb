@@ -59,4 +59,12 @@ export const Wrapper = styled.div`
     right: -36px;
     z-index: 1;
   }
+  @media (max-width: 1150px) {
+    .discover__article {
+      width: 100%;
+    }
+    .discover__image {
+      display: none;
+    }
+  }
 `;

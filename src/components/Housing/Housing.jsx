@@ -5,7 +5,7 @@ const Housing = ({ house }) => {
   return (
     <Wrapper>
       <div className="img__container">
-        <img src={house} alt="building" />
+        <img src={house.name} alt="building" />
       </div>
       <div className="housing__details">
         <div className="housing__name">

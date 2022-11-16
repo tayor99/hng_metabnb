@@ -8,7 +8,7 @@ export const SidebarContainer = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2rem 3rem;
+    padding: 2rem 1rem;
     background-color: var(--clr-white);
   }
   .close-btn {

@@ -54,4 +54,11 @@ export const Wrapper = styled.footer`
       cursor: pointer;
     }
   }
+  @media (max-width: 800px) {
+    .footer__container {
+      display: flex;
+      flex-direction: column;
+      /* justify-content: space-between; */
+    }
+  }
 `;

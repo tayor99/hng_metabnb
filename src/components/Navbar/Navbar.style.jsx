@@ -48,7 +48,17 @@ export const Header = styled.header`
       }
     }
   }
-  @media (max-width: 882px) {
+  @media (max-width: 1026px) {
+    .navbar__container {
+      width: 95%;
+    }
+    .navlinks {
+      li {
+        margin-right: 30px !important;
+      }
+    }
+  }
+  @media (max-width: 950px) {
     .nav-toggle {
       display: block;
       display: flex;
